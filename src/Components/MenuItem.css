@@ -1,0 +1,75 @@
+.MenuItem-Parent{
+    height: 93.8vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px;
+    background-color: #DCD7C9;
+    
+}
+
+.MenuItem-Parent .MenuItem-Header{
+    line-height: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.MenuItem-Header .title{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.MenuItem-Header .descrip{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.MenuItem-Parent .MenuItem-Body{
+    display: flex;
+    column-gap: 20px;
+    height: 75vh;
+    /* padding: 20px; */
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+.MenuItem-Parent .MenuItem-TableCont{
+    width: 100%;
+    padding: 20px;
+    /* background-color: rgb(201, 201, 201); */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.MenuItem-TableCont .TableCont{
+    height: 90%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.MenuItem-TableCont .title{
+    color: #3F4F44;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.TableCont .table thead{
+    text-align: center;
+}
+
+.TableCont .table thead th{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: #3F4F44 !important;
+}
+
+.TableCont .table tbody{
+    text-align: center;
+    font-weight: 500;
+}

@@ -1,0 +1,34 @@
+.RecipeCardTemp {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #819286;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.RecipeCardTemp .title{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.list .ingredients{
+    color: #ffedd5;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.RecipeCardTemp .list{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}

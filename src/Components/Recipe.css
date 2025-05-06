@@ -1,0 +1,146 @@
+.Recipe-Parent{
+    height: 93.8vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px;
+    background-color: #DCD7C9;
+    
+}
+
+.Recipe-Parent .Recipe-Header{
+    line-height: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Recipe-Header .title{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Recipe-Header .descrip{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.Recipe-Parent .Recipe-Body{
+    display: flex;
+    column-gap: 20px;
+    height: 75vh;
+    /* padding: 20px; */
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+.Recipe-Parent .Recipe-TableCont{
+    width: 70%;
+    padding: 20px;
+    /* background-color: rgb(201, 201, 201); */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Recipe-TableCont .CardCont{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.Recipe-TableCont .title{
+    color: #3F4F44;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.TableCont .table thead{
+    text-align: center;
+}
+
+.TableCont .table thead th{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: #3F4F44 !important;
+}
+
+.TableCont .table tbody{
+    text-align: center;
+    font-weight: 500;
+}
+
+.Recipe-Parent .Recipe-FormCont{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 580px;
+    padding: 20px;
+    background-color: #3F4F44;
+    color: white;
+    border-radius: 10px;
+    row-gap: 30px;
+}
+
+.Recipe-FormCont .FormCont-Body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 0px 20px;
+    border-radius: 10px;
+    row-gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.FormCont-Body label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FormCont-Body input{
+    border-radius: 10px;
+    border: solid 1px #919191;
+    height: 40px;
+    outline: none;
+    padding: 10px 10px;
+}
+
+.Recipe-FormCont .FormCont-Buttons{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    column-gap: 10px;
+    justify-content: end;
+}
+
+.FormCont-Buttons .Cancel{
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3F4F44;
+    background-color: rgb(238, 238, 238);
+    padding: 0px 10px;
+}
+
+.FormCont-Buttons .Add{
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #9DC08B;
+    color: #3F4F44;
+    padding: 0px 10px;
+}
